@@ -106,6 +106,7 @@ IncomingCall "1" -- "1..2" AnswerButton : > use
 DialPad -|> Keypad 
 Keypad <|- AnswerButton
 @enduml
-
-
 ```
+
+
+### จบการทดลองและแบบฝึกหัด

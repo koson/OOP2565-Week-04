@@ -20,4 +20,5 @@
 
 #### 4.2.2 การกำหนด Cardinality, Required และ Optional Components  ของวัตถุ
 
-### 4.3 การปฏิบัติการทดลอง การวาดแบบจำลอง Generalization และ Association ด้วยโปรแกรม plantUML
+### [4.3 การปฏิบัติการทดลอง การวาดแบบจำลอง Generalization และ Association ด้วยโปรแกรม plantUML](./Week04-lab-part-01.md)
+
