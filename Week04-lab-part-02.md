@@ -162,6 +162,39 @@ Forest "1..1" --- "0..n" tree : > has
    1.7 ประธานบริษัทบริหารกิจการ
    
    1.8 กระดานดำอยู่ในห้องเรียน
+   
+``` plantuml
+@startuml
+
+class Person
+class Car
+class Mother
+class Child
+class Husband
+class Wife
+class Pencil
+class Bag
+class Politician
+class Legal
+class Soldier
+class Uniform
+class CEO
+class Business
+class Blackboard
+class Classroom
+
+Person "1..1" -- "0..n" Car : > own
+Mother "1..1" -- "1..n" Child : > has
+Husband "1..1" -- "1..1" Wife : > love
+Pencil "1..1" -- "1..1" Bag : > in
+Politician "1..1" -- "1..1" Legal : > make
+Soldier "1..1" -- "1..1" Uniform : > wear
+CEO "1..1" -- "1..1" Business : > manage
+Blackboard "1..1" -- "1..1" Classroom : > in
+
+@enduml
+```
+![image](https://github.com/tnpn2545/Week-04/assets/115066414/8c73b427-27a7-4800-87e7-8c583d1e7355)
 
 
 ## [การวาดไดอะแกรมที่มีองค์ประกอบมากขึ้น](./Week04-lab-part-03.md)
